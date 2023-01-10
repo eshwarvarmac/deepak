@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+  /*  font-size: 200%; /*making all the font sizes of elemnts 200% that are given inside the body*/
+}
+h1{
+    font-size: 3.125em; /* 1em = 100% but using rem will be least error prone */
+  /*  font-size: 3.125rem; /*rem is fixed font size that even if the in the body we define another font size it will not be relative */
+   /* font-size: 312.5%; /* because 100% implies for 16pixels but we nee 90pixels so (50/16)*100%, 16px=100%=1em */
+  /*  width: 10%; /*for center alignment if width is assigned follow the below code*/
+  /*  margin: 0 auto 0 auto; /*those values are for top,right,bottom,left respectively*/
+    font-family: 'Sacramento',cursive;
+    margin: 50px auto 0 auto;   /*those values are for top,right,bottom,left respectively*/
+    color: #044d78;
+    line-height: 1; /*this increases the space on the top of h1, the default line height is 1*/
+}
+h2{
+    font-size: 1.55rem;
+    color: #044d78;
+    font-weight: normal;
+}
+h3{
+    color: #11999E;
+}
+a{
+    color: #11499e;
+    margin: 10px 20px;
+     text-decoration: none;
+}
+a:hover{
+    color: #decbda;
+}
+.line1{
+    border: dotted #daeded 6px; /*here 6px is height of the dotted lines*/
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto; /* top and bottom are 100px, right and left are auto*/
+}
+
+.second{
+    position: absolute;
+    left: 500px;
+}
+.first{
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+.skill-row{
+    width: 50%;
+   margin: 50px auto 100px auto;
+   text-align: left;
+   line-height: 1.5;
+   
+}
+.Top_container{
+    background: #cef2f5;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+margin: 0px 0;
+ 
+}
+.bottom-container{
+    margin: 200px 0 0 0;
+    background-color: #087e82;
+    padding: 50px 0 50px ;
+    margin-bottom: 0px;
+    }
+.intro{
+    width: 30%;
+    margin: auto;
+    line-height: 1.5;
+}
+.stu{
+    text-decoration-line: underline;
+}
+
+.music{
+    margin-top: 10px;
+}                  /*this is simply unfloating */
+
+ .contact_message{
+    width: 40%;
+    margin: 40px auto 60px;
+ }
+ .copyright{
+     color: #daeded;
+  
+ }
+ .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
